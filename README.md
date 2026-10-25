@@ -9,7 +9,7 @@
 Готовый архив: [dist/DeathMine-RP.zip](dist/DeathMine-RP.zip).
 Его не нужно распаковывать перед установкой в Minecraft.
 Для серверной загрузки используйте прямую ссылку и SHA-1 из
-[examples/server.properties](examples/server.properties) (будут добавлены при публикации).
+[examples/server.properties](examples/server.properties).
 
 1. Остановите сервер и добавьте параметры из примера в свой `server.properties`,
    заменяя существующие одноимённые строки. Не заменяйте весь файл.
