@@ -1,0 +1,30 @@
+# ФРАГМЕНТ для старых TAB с header-footer.header без designs.
+# Если в вашем config.yml уже есть designs, используйте TAB-modern.yml.
+# Замените только существующие header-footer и scoreboard.
+header-footer:
+  enabled: true
+  header:
+    - ''
+    - '&f'
+    - ''
+    - '&7Добро пожаловать, &6%player%'
+  footer:
+    - ''
+    - '&7Онлайн: &f%online% &8• &7Пинг: &f%ping% мс'
+    - ''
+
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  delay-on-join-milliseconds: 1000
+  scoreboards:
+    deathmine:
+      title: '&f'
+      lines:
+        - '&8──────────────'
+        - '&7Игрок: &f%player%'
+        - '&7Онлайн: &6%online%'
+        - '&7Пинг: &f%ping% мс'
+        - '&8──────────────'

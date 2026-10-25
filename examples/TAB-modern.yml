@@ -1,0 +1,33 @@
+# ФРАГМЕНТ plugins/TAB/config.yml, не полная замена файла!
+# TAB с разделом header-footer.designs (современные версии).
+# Замените существующие header-footer и scoreboard, не создавайте дубликаты.
+# Сохраняйте UTF-8. &f нужен, чтобы не перекрашивать оранжевую текстуру.
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+        - ''
+        - '&f'
+        - ''
+        - '&7Добро пожаловать, &6%player%'
+      footer:
+        - ''
+        - '&7Онлайн: &f%online% &8• &7Пинг: &f%ping% мс'
+        - ''
+
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  delay-on-join-milliseconds: 1000
+  scoreboards:
+    deathmine:
+      title: '&f'
+      lines:
+        - '&8──────────────'
+        - '&7Игрок: &f%player%'
+        - '&7Онлайн: &6%online%'
+        - '&7Пинг: &f%ping% мс'
+        - '&8──────────────'
